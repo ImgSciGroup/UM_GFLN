@@ -1,0 +1,34 @@
+# yaml文件
+FR:
+  EPOCH: 15     # Training number
+  SEGMENT: [900,10]
+  GUIYI: 'stad'
+  DATANAME: ['1','2','png']
+UK2:
+  EPOCH: 30
+  SEGMENT: [1300,25]
+  GUIYI: '1'
+  DATANAME: ['2','1','png']
+UK:
+  EPOCH: 25
+  SEGMENT: [2500,50]
+  GUIYI: '1'
+  DATANAME: ['2','1','png']
+SG:
+  EPOCH: 10
+  SEGMENT: [1500,5]
+  GUIYI: 'stad'
+  DATANAME: ['1','2','png']
+Lss:
+  EPOCH: 15
+  SEGMENT: [2000,5]
+  GUIYI: '1'
+  DATANAME: ['2','1','png']
+TE:
+  EPOCH: 10      #
+  SEGMENT: [2500,15]
+  GUIYI: '1'
+  DATANAME: ['1','2','tif']
+k: 7
+weight: 1
+feat: 4
